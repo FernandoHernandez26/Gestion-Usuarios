@@ -8,9 +8,9 @@ public class MenUsuario {
 
 		Scanner sc = new Scanner(System.in);
 
-		Ingresos ingreso = new Ingresos();
+		Ingresos ingreso = new Ingresos(); // Instancia del objeto Ingreso
 		ingreso.ventaWallapod(sc);
-		ingreso.Pedirdatos(sc);
+		ingreso.Pedirdatos(sc);  // Pedida de datos al usuario
 		System.out.println(ingreso.calculoIngreso());
 		System.out.println(ingreso.toString());
 	}
